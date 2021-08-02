@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:#232323;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    position: relative;
+    width:100%;
+    background-color: rgb(32, 235, 235);
+    text-align: center;
+    padding: 10vh 0;
+    font-size: 5vh;
+    color:white
+}
+#guessCode{
+    background-color: rgb(32, 235, 235);
+}
+#bar{
+    position: relative;
+    flex-direction:row;
+    width:100%;
+    height:5vh;
+    background-color:grey;
+}
+#newColors{
+    position: absolute;
+    background-color:grey;
+    color:white;
+    left:20vh;
+    padding:1vh 2vh 1.3vh 2vh;
+}
+#newColor:hover{
+    cursor:pointer;
+    background-color:rgba(32, 235, 235, 0.747) ;
+}
+#newColors:hover{
+    background-color: rgba(32, 235, 235, 0.397);
+    color:white;
+}
+#hard{
+    position: absolute;
+    background-color: grey;
+    color:white;
+    left:90%;
+    padding:1vh 2vh 1.2vh 2vh;
+}
+#hard:hover{
+    background-color: rgb(26, 196, 196);
+    color:white;
+}
+#rgbContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width:31.5%;
+    height:55vh;
+    left:50%;
+    transform: translate(-50%,0);
+    margin:9vh 0 0 0;
+}
+#rgb1{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
+#rgb2{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
+#rgb3{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
+#rgb4{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
+#rgb5{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
+#rgb6{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    /* background-color:yellow; */
+    margin:1vh;
+    border-radius:5vh;
+}
